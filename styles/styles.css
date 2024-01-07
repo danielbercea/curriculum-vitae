@@ -1,0 +1,248 @@
+:root {
+  --black: #212121;
+  --background-color: #e5e5e5;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Montserrat alternates", sans-serif;
+}
+
+/* right-section styles */
+
+.right-section {
+  padding-left: 90px;
+  background-color: #fff;
+  padding-right: 220px;
+}
+
+.about-me-profession {
+  font-family: Montserrat;
+  font-style: Bold;
+  line-height: 17px;
+  line-height: 100%;
+  font-size: 14px;
+  color: black;
+  margin-top: 100px;
+}
+
+.about-me-name {
+  font-family: Montserrat;
+  font-style: Bold;
+  font-size: 45px;
+  line-height: 55px;
+  line-height: 100%;
+  margin-top: 30px;
+}
+
+.about-description {
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 24px;
+  line-height: 141%;
+}
+
+.about-description {
+  margin-left: 15px;
+  padding-left: 0px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 40px auto;
+}
+
+.about-me-section {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  margin-bottom: 50px;
+}
+
+.projects-sections {
+  margin: 40px 0 0 0;
+}
+
+.block-title {
+  font-family: Montserrat;
+  font-style: Bold;
+  font-size: 22px;
+  line-height: 27px;
+  line-height: 100%;
+}
+
+.about-address {
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 24px;
+  line-height: 141%;
+}
+
+.bracket {
+  font-family: Montserrat;
+  font-style: Mixed;
+  font-size: 14px;
+  line-height: 24px;
+  line-height: 141%;
+  font-weight: 700;
+  color: #000;
+}
+
+.projects-item {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #595959;
+  margin-left: 10px;
+}
+
+.projects-sections ol {
+  padding-left: 17px;
+}
+
+.projects-item a {
+  color: #595959;
+}
+
+ol li {
+  font-weight: 700;
+}
+
+.about-construction {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  line-height: 100%;
+}
+
+.about-date {
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.work-experience-company {
+  color: #fb6d3a;
+}
+
+/* sidebar styles */
+
+.sidebar-section {
+  background-color: #1e2939;
+  width: 370px;
+}
+
+.sidebar-section img {
+  margin-top: 40px;
+}
+
+.Sidebar-title {
+  font-size: 22px;
+  line-height: 27px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.contacts-section {
+  padding-left: 40px;
+}
+
+.tech-skills-section {
+  padding-left: 40px;
+}
+
+.soft-skills-section {
+  padding-left: 40px;
+}
+
+.contacts-section-type,
+.contacts-section-type {
+  font-style: normal;
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.contacts-section-value {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #627089;
+}
+
+.Sidebar-list {
+  color: #fb6d3a;
+  padding-left: 20px;
+}
+
+.Sidebar-list span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* Find us on */
+
+.link-footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.link-footer > h2 {
+  font-size: 22px;
+  line-height: 27px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.icon-find {
+  display: flex;
+  gap: 10px;
+  width: 98px;
+  height: 44px;
+  padding-inline-start: 0px;
+}
+
+.icons-footer {
+  display: flex;
+  width: 44px;
+  height: 44px;
+}
+
+.icons-footer .icon-social-footer {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  background-color: #627089;
+  color: #212121;
+  transition: var(--transition);
+}
+
+.icon-social-footer > svg {
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+}
+
+.icons-footer .icon-social-footer:hover,
+.icons-footer .icon-social-footer:focus {
+  background-color: #fff;
+  color: #fb6d3a;
+}
